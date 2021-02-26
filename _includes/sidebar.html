@@ -1,33 +1,15 @@
 <div class="card mb-3">
     <div class="card-header">
-        <h3><a name="about"></a>About</h3>
-    </div>
-    <div class="card-body" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <p class='text-center' itemprop='logo' itemscope itemtype='http://schema.org/ImageObject'>
-            <a href='{{ site.image | prepend: site.baseurl | replace: "//", "/" | prepend: site.url }}' itemprop='url'>
-                <img src='{{ site.image | prepend: site.baseurl | replace: "//", "/" | prepend: site.url }}' class='img-fluid img-thumbnail'>
-            </a>
-            <!--<meta itemprop="width" content=""/>--><!-- TODO Image width -->
-            <!--<meta itemprop="height" content=""/>--><!-- TODO Image height -->
-        </p>
-        <p class="lead text-center">
-            <a href="{{ site.baseurl | prepend: site.url }}" itemprop="url">
-                <span itemprop="name">{{ site.title }}</span>
-            </a>
-        </p>
-        <p class="text" itemprop="description">
-            {{ site.description }}
-        </p>
-    </div><!-- .card-body -->
-</div><!-- .card -->
-
-<div class="card mb-3">
-    <div class="card-header">
         <h3><a name="author"></a>Author</h3>
     </div>
     <div class="card-body" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <p class="text-center">
+            <a href="/antonio.png" title="Antônio Vinícius">
+                <img src="/antonio.png" alt="Antônio Vinícius" class="img-fluid img-thumbnail rounded-circle">
+            </a>
+        </p>
         {% if site.author.name %}
-            <p class="lead" itemprop="name">
+            <p class="lead text-center" itemprop="name">
                 {{ site.author.name }}
             </p>
         {% endif %}
@@ -128,11 +110,11 @@
                         </a>
                     </li>
                 {% endif %}
-                <li>
+                <!--<li>
                     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
                         <i class="fas fa-rss"></i> subscribe via RSS
                     </a>
-                </li>
+                </li>-->
             </ul>
         {% endif %}
     </div><!-- .card-body -->

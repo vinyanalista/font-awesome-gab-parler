@@ -22,15 +22,15 @@
 author:
     # Site's author name
     # Default: not set (author name is not displayed)
-    name: Your awesome name
+    name: Antônio Vinícius
 
     # Site's author email
     # Default: not set (author email is not displayed)
-    email: your-email@yourdomain.com
+    #email: your-email@yourdomain.com
 
     # Site's author website, profile
     # Default: not set (author site is not displayed)
-    site: http://yourdomain.com
+    site: https://vinyanalista.github.io
 
 ############
 # Building #
@@ -221,7 +221,7 @@ plugins:
 #################
 
 # Site title
-title: Your awesome title
+title: Gab and Parler icons for Font Awesome
 
 # Site description
 description: > # this means to ignore newlines until the text ends
@@ -321,7 +321,7 @@ facebook:
 # GitHub username
 # Example: jekyll, if your GitHub URL is https://github.com/jekyll
 # Default: not set (GitHub URL is not displayed)
-github_username: "jekyll"
+github_username: "vinyanalista"
 
 # Google Plus user ID
 # Example: 123456789098765432123, if your Google Plus URL is
@@ -343,7 +343,7 @@ github_username: "jekyll"
 # Twitter username
 # Example: jekyllrb, if your Twitter URL is https://twitter.com/jekyllrb
 # Default: not set (Twitter URL is not displayed)
-twitter_username: "jekyllrb"
+#twitter_username: "jekyllrb"
 
 youtube:
     # What kind of YouTube profile you have (it can be "user" or "channel")
