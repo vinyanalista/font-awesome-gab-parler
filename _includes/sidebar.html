@@ -22,37 +22,6 @@
             {% endif %}
         </ul>
 
-        {% if site.addthis_profile_id %}
-            <!-- AddThis Follow Buttons -->
-            <div class="addthis_toolbox addthis_32x32_style addthis_default_style addthis_follow_buttons text-center">
-                {% if site.facebook.username %}
-                    <a href="https://facebook.com/{{ site.facebook.username }}" class="addthis_button_facebook_follow" addthis:userid="{{ site.facebook.username }}" itemprop="sameAs"></a>
-                {% endif %}
-                {% if site.twitter_username %}
-                    <a href="https://twitter.com/{{ site.twitter_username }}" class="addthis_button_twitter_follow" addthis:userid="{{ site.twitter_username }}" itemprop="sameAs"></a>
-                {% endif %}
-                {% if site.instagram_username %}
-                    <a href="https://instagram.com/{{ site.instagram_username }}" class="addthis_button_instagram_follow" addthis:userid="{{ site.instagram_username }}" itemprop="sameAs"></a>
-                {% endif %}
-                {% if site.linkedin_username %}
-                    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="addthis_button_linkedin_follow" addthis:userid="{{ site.linkedin_username }}" itemprop="sameAs"></a>
-                {% endif %}
-                {% if site.google_plus_user_id %}
-                    <a href="https://plus.google.com/{{ site.google_plus_user_id }}" class="addthis_button_google_follow" addthis:userid="{{ site.google_plus_user_id }}" itemprop="sameAs"></a>
-                {% endif %}
-                {% if site.youtube.profile and site.youtube.name %}
-                    <a href="https://youtube.com/{{ site.youtube.profile }}/{{ site.youtube.name }}" class="addthis_button_youtube_follow" addthis:userid="{{ site.youtube.name }}" itemprop="sameAs"></a>
-                {% endif %}
-                {% if site.foursquare_username %}
-                    <a href="https://foursquare.com/{{ site.foursquare_username }}" class="addthis_button_foursquare_follow" addthis:userid="{{ site.foursquare_username }}" itemprop="sameAs"></a>
-                {% endif %}
-                {% if site.github_username %}
-                    <a href="https://github.com/{{ site.github_username }}" class="addthis_button_github_follow" addthis:userid="{{ site.github_username }}" itemprop="sameAs"></a>
-                {% endif %}
-                <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="addthis_button_rss_follow"></a>
-            </div>
-            <!-- AddThis Follow Buttons End -->
-        {% else %}
             <ul class="social-media-list list-unstyled">
                 {% if site.facebook.username %}
                     <li>
@@ -116,7 +85,6 @@
                     </a>
                 </li>-->
             </ul>
-        {% endif %}
     </div><!-- .card-body -->
 </div><!-- .card -->
 
@@ -127,3 +95,20 @@
         </div><!-- .col-xs-12 -->
     </div><!-- .row -->
 {% endif %}
+
+<div class="card mb-3" id="donate">
+    <div class="card-header">
+      <h3>
+          <a name="donate"></a>
+          Donate
+      </h3>
+    </div>
+    <div class="card-body">
+      <form action="https://www.paypal.com/donate" method="post" target="_top" class="text-center">
+          <input type="hidden" name="hosted_button_id" value="5KVYXKB5RFXR6" />
+          <input type="hidden" name="business" value="vinyanalista@gmail.com" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+    </div><!-- .card-body -->
+</div><!-- .card -->

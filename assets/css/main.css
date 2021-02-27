@@ -383,3 +383,7 @@ https://pro.propeller.in/components/floating-button.php
     right: 1rem;
     z-index: 1000;
 }
+
+.input-group-text {
+    font-size: 32px;
+}

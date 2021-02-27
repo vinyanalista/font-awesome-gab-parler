@@ -129,7 +129,7 @@ google:
         # Google AdSense publisher ID
         # Your publisher ID is the unique identifier for your AdSense account.
         # Default: not set (Google AdSense is not used to show ads)
-        # publisher_id: pub-1234567890123456
+        publisher_id: "pub-5193467168351289"
 
         # If you do not know your publisher ID, take a look at
         # https://support.google.com/adsense/answer/105516
@@ -138,17 +138,17 @@ google:
         # the title, if in a page or post, or after the first post, if in a post
         # listing
         # Default: not set (no ad is displayed at the top)
-        # content_ad_unit_1: 1234567890
+        content_ad_unit_1: 9320503354
 
         # Ad unit ID for the ad displayed inside the page content, randomly
         # placed between paragraphs, if in a page or post, or between posts, if
         # in a post listing
         # Default: not set (no ad is displayed in the page content)
-        # content_ad_unit_2: 0987654321
+        content_ad_unit_2: 4068176676
 
         # Ad unit ID for the ad displayed in the sidebar
         # Default: not set (no ad is displayed in the sidebar)
-        # sidebar_ad_unit: 1231231231
+        sidebar_ad_unit: 2563523317
 
         # Note: use only responsive ad units
 
@@ -264,7 +264,7 @@ lang: en
 # website with social networks. An AddThis profile contains configuration
 # options and analytics data for a website.
 # Default: not set (AddThis is not used to handle social networks integration)
-# addthis_profile_id: "ra-example123456789"
+addthis_profile_id: "ra-4f7774466af48b4f"
 
 # If you do not know your AddThis profile ID, you can find it at
 # https://www.addthis.com/settings/publisher
@@ -279,7 +279,7 @@ lang: en
 # only your site's comments, as well as the settings specified in your Disqus
 # admin.
 # Default: not set (do not use Disqus to handle comments)
-# disqus_shortname: "my_disqus_shortname"
+disqus_shortname: "vinyanalista"
 
 # If you do not know your Disqus shortname, take a look at
 # https://help.disqus.com/customer/portal/articles/466208
