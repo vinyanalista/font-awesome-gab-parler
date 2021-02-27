@@ -224,10 +224,7 @@ plugins:
 title: Gab and Parler icons for Font Awesome
 
 # Site description
-description: > # this means to ignore newlines until the text ends
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
+description: 'Write an awesome description for your new site here.'
 
 # Default site image
 # Image used as a default thumbnail for pages and posts which do not have an
