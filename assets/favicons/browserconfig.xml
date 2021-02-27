@@ -6,7 +6,7 @@ layout: null
     <msapplication>
         <tile>
             <square150x150logo src="{{ "/assets/favicons/mstile-150x150.png?v=3" | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}"/>
-            <TileColor>#009688</TileColor>
+            <TileColor>#880e4f</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
