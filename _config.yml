@@ -279,7 +279,7 @@ addthis_profile_id: "ra-4f7774466af48b4f"
 # only your site's comments, as well as the settings specified in your Disqus
 # admin.
 # Default: not set (do not use Disqus to handle comments)
-disqus_shortname: "vinyanalista"
+# disqus_shortname: "my_disqus_shortname"
 
 # If you do not know your Disqus shortname, take a look at
 # https://help.disqus.com/customer/portal/articles/466208
