@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Gab and Parler icons for Font Awesome
+image: '/assets/favicons/favicon.png'
 ---
 
 Two new social networks are emerging: [Gab] and [Parler]. And there is this awesome and popular set of vector icons and social logos in the form of an SVG font: [Font Awesome][fontawesome]. This set of icons already includes traditional and bigger social networks logos, such as [Facebook], [Instagram] and [Twitter]. Although users are requesting the addition of the [Gab][gab-request] and [Parler][parler-request] logos, no one knows whether (nor when) these requests will be implemented. As many people want to use these logos — me myself included — I made a workaround and I'm sharing it in case it can be useful for someone else.
