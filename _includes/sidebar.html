@@ -51,17 +51,17 @@
                         </a>
                     </li>
                 {% endif %}
-                {% if site.google.user_id %}
-                    <li>
-                        <a href="https://plus.google.com/{{ site.google.user_id }}" itemprop="sameAs">
-                            <i class="fab fa-google-plus"></i> {{ site.google.user_id }}
-                        </a>
-                    </li>
-                {% endif %}
                 {% if site.youtube.profile and site.youtube.name %}
                     <li>
                         <a href="https://youtube.com/{{ site.youtube.profile }}/{{ site.youtube.username }}" itemprop="sameAs">
                             <i class="fab fa-youtube"></i> {{ site.youtube.name }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if site.telegram_username %}
+                    <li>
+                        <a href="https://t.me/{{ site.telegram_username }}" itemprop="sameAs">
+                            <i class="fab fa-telegram"></i> {{ site.telegram_username }}
                         </a>
                     </li>
                 {% endif %}
@@ -76,6 +76,13 @@
                     <li>
                         <a href="https://github.com/{{ site.github_username }}" itemprop="sameAs">
                             <i class="fab fa-github"></i> {{ site.github_username }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if site.gitlab_username %}
+                    <li>
+                        <a href="https://gitlab.com/{{ site.gitlab_username }}" itemprop="sameAs">
+                            <i class="fab fa-gitlab"></i> {{ site.gitlab_username }}
                         </a>
                     </li>
                 {% endif %}
