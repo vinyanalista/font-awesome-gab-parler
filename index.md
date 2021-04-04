@@ -32,6 +32,18 @@ The icons I injected into Font Awesome are the following:
 <div class='input-group mb-3'>
     <div class='input-group-prepend mr-3'>
         <span class='input-group-text'>
+            <i class='gab fa-gab-frog'></i>
+        </span>
+    </div>
+    <input type='text' class='form-control txt-html' value='<i class="gab fa-gab-frog"></i>' readonly>
+    <div class='input-group-btn'>
+        <button type='button' class='btn btn-outline-secondary btn-copy' title='Copy'><i class='fas fa-copy'></i></button>
+    </div>
+</div>
+
+<div class='input-group mb-3'>
+    <div class='input-group-prepend mr-3'>
+        <span class='input-group-text'>
             <i class='gab fa-gab-g'></i>
         </span>
     </div>
@@ -104,7 +116,7 @@ For instance, this page is retrieving Font Awesome from the [jsDelivr][cdn] CDN:
 </html>
 ```
 
-2\. Download [`font-awesome-gab-parler.js`](libs/font-awesome-gab-parler/0.1.0/js/font-awesome-gab-parler.js) and reference it in your page:
+2\. Download [`font-awesome-gab-parler.js`](libs/font-awesome-gab-parler/0.2.0/js/font-awesome-gab-parler.js) and reference it in your page:
 
 ```html
     <body>
